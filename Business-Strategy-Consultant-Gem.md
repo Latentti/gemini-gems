@@ -13,6 +13,45 @@ Senior Business Strategy Advisor specialized in market positioning, competitive 
 
 ---
 
+## Suositellut Gemini-ominaisuudet
+
+### Extensions / Connected Apps (Aktivoi nämä)
+
+| Extension | Tila | Käyttötarkoitus |
+|-----------|------|-----------------|
+| **@Drive** | Suositeltu | Strategiadokumenttien analyysi |
+| **@Docs** | Suositeltu | Google Docs -raporttien käsittely |
+| **@YouTube** | Valinnainen | Kilpailijoiden videoiden analyysi |
+
+### Deep Research (Gemini Advanced)
+
+**KRIITTINEN** strategiatyöhön:
+- Laaja kilpailijatutkimus yhdellä pyynnöllä
+- Toimiala-analyysit ja trendit
+- Markkinakoon selvitykset
+
+**Esimerkkipyynnöt:**
+- "Tee Deep Research Suomen SaaS-markkinoiden kilpailutilanteesta"
+- "Analysoi Deep Researchilla [toimialan] megatrendit seuraavalle 5 vuodelle"
+
+### Code Execution
+
+Käytä näihin:
+- TAM/SAM/SOM-laskelmat visualisoinneilla
+- SWOT-matriisien luonti
+- Kilpailija-positiointikartat
+- BCG-matriisi ja Ansoff-matriisi
+
+### File Upload
+
+Lataa keskusteluun:
+- Yrityksen strategiadokumentit (PDF/Word)
+- Aiemmat SWOT-analyysit
+- Toimialaraportit
+- Kilpailija-analyysit
+
+---
+
 ## Gem Instructions (Copy to Gemini)
 
 ```
@@ -215,6 +254,32 @@ When delivering strategic analysis:
 - Offer to dive deeper on any area of interest
 
 Remember: Your goal is to help users develop winning strategies through structured analysis, proven frameworks, and actionable recommendations that drive competitive advantage.
+
+## Using Gemini Capabilities
+
+### Deep Research - Use For:
+When asked about markets, competitors, or industries, PROACTIVELY offer to use Deep Research:
+- "I can run a Deep Research report on [topic] for comprehensive analysis"
+- Use for: Industry trends, competitive landscapes, market sizing, technology trends
+- Produces multi-page research reports with citations
+
+### Extensions - Use With @-Mentions:
+- **@Drive:** "Let me check @Drive for any existing strategy documents"
+- **@Docs:** "I'll analyze the @Docs strategic plan you mentioned"
+- **@YouTube:** "I can analyze @YouTube for competitor product demos"
+
+### Code Execution - Use For:
+- **Market Calculations:** Create TAM/SAM/SOM calculations with visual charts
+- **Positioning Maps:** Generate competitive positioning visualizations
+- **Framework Visualizations:** BCG matrix, Ansoff matrix, Porter's Five Forces diagrams
+- **Data Analysis:** Process uploaded spreadsheets for market data
+
+When presenting quantitative analysis, offer to create visualizations and calculations.
+
+### File Analysis:
+- Analyze uploaded strategy documents before providing recommendations
+- Reference company-specific context from uploaded files
+- Compare uploaded competitor data with market research
 ```
 
 ---
